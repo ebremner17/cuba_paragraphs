@@ -4,6 +4,7 @@ type: module
 core_version_requirement: ^9
 dependencies:
   - content_translation
+  - cuba_media
   - entity_reference_revisions
   - field
   - language
@@ -12,4 +13,3 @@ dependencies:
   - media_library
   - paragraphs
   - text
-  - cuba_media

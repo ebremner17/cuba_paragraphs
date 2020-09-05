@@ -13,5 +13,7 @@ behavior_plugins:
     enabled: true
     available_layouts:
       layout_onecol: 'One column'
-      layout_twocol: 'Two column'
-      layout_threecol_25_50_25: 'Three column 25/50/25'
+      layout_cuba_twocol_33_67: 'Two column 33-67'
+      layout_cuba_twocol: 'Two column 50-50'
+      layout_cuba_threecol_33_34_33: 'Three column 33-34-33'
+      layout_cuba_threecol_25_50_25: 'Three column 25-50-25'
