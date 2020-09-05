@@ -1,0 +1,21 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cuba_pt_copy_text.field_cuba_cs_copy_text
+    - paragraphs.paragraphs_type.cuba_pt_copy_text
+  module:
+    - text
+id: paragraph.cuba_pt_copy_text.default
+targetEntityType: paragraph
+bundle: cuba_pt_copy_text
+mode: default
+content:
+  field_cuba_cs_copy_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

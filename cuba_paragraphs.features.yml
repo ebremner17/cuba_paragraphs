@@ -1,0 +1,5 @@
+excluded:
+  - language.content_settings.media.cuba_mt_remote_video
+  - media.type.cuba_mt_remote_video
+  - paragraphs.paragraphs_type.conference_pt_section_type
+required: true

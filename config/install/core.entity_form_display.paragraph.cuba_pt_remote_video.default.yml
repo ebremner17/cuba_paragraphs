@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cuba_pt_remote_video.field_cuba_remote_video
+    - paragraphs.paragraphs_type.cuba_pt_remote_video
+  module:
+    - media_library
+id: paragraph.cuba_pt_remote_video.default
+targetEntityType: paragraph
+bundle: cuba_pt_remote_video
+mode: default
+content:
+  field_cuba_remote_video:
+    type: media_library_widget
+    weight: 0
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

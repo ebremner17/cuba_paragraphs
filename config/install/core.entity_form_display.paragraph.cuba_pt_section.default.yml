@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cuba_pt_section.field_cuba_section
+    - paragraphs.paragraphs_type.cuba_pt_section
+  module:
+    - layout_paragraphs
+id: paragraph.cuba_pt_section.default
+targetEntityType: paragraph
+bundle: cuba_pt_section
+mode: default
+content:
+  field_cuba_section:
+    type: layout_paragraphs
+    weight: 0
+    settings:
+      preview_view_mode: default
+      nesting_depth: 0
+      require_layouts: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

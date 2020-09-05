@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cuba_remote_video
+    - media.type.cuba_mt_remote_video
+    - paragraphs.paragraphs_type.cuba_pt_remote_video
+id: paragraph.cuba_pt_remote_video.field_cuba_remote_video
+field_name: field_cuba_remote_video
+entity_type: paragraph
+bundle: cuba_pt_remote_video
+label: 'Remote video'
+description: 'Remote video for CUBA/ACCAU'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      cuba_mt_remote_video: cuba_mt_remote_video
+    sort:
+      field: changed
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

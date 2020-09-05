@@ -1,0 +1,20 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cuba_cs_copy_text
+    - paragraphs.paragraphs_type.cuba_pt_copy_text
+  module:
+    - text
+id: paragraph.cuba_pt_copy_text.field_cuba_cs_copy_text
+field_name: field_cuba_cs_copy_text
+entity_type: paragraph
+bundle: cuba_pt_copy_text
+label: 'Copy text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
