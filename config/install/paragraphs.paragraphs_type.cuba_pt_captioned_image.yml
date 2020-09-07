@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: cuba_pt_captioned_image
+label: 'Captioned image'
+icon_uuid: null
+icon_default: null
+description: 'A captioned image for CUBA/ACCAU'
+behavior_plugins: {  }

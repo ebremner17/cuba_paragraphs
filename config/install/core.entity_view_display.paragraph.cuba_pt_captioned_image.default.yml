@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cuba_pt_captioned_image.field_cuba_ci_caption
+    - field.field.paragraph.cuba_pt_captioned_image.field_cuba_ci_image
+    - paragraphs.paragraphs_type.cuba_pt_captioned_image
+  module:
+    - text
+id: paragraph.cuba_pt_captioned_image.default
+targetEntityType: paragraph
+bundle: cuba_pt_captioned_image
+mode: default
+content:
+  field_cuba_ci_caption:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_cuba_ci_image:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }

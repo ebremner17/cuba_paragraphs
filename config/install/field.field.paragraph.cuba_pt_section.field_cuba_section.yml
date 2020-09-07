@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_cuba_section
+    - paragraphs.paragraphs_type.cuba_pt_captioned_image
     - paragraphs.paragraphs_type.cuba_pt_copy_text
     - paragraphs.paragraphs_type.cuba_pt_image
     - paragraphs.paragraphs_type.cuba_pt_layout
@@ -25,14 +26,15 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
+      cuba_pt_captioned_image: cuba_pt_captioned_image
       cuba_pt_copy_text: cuba_pt_copy_text
       cuba_pt_image: cuba_pt_image
       cuba_pt_layout: cuba_pt_layout
       cuba_pt_remote_video: cuba_pt_remote_video
     target_bundles_drag_drop:
-      conference_pt_section_type:
+      cuba_pt_captioned_image:
+        enabled: true
         weight: 7
-        enabled: false
       cuba_pt_copy_text:
         enabled: true
         weight: 8

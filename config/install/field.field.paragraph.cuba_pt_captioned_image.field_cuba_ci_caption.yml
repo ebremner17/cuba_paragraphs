@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cuba_ci_caption
+    - paragraphs.paragraphs_type.cuba_pt_captioned_image
+  module:
+    - text
+id: paragraph.cuba_pt_captioned_image.field_cuba_ci_caption
+field_name: field_cuba_ci_caption
+entity_type: paragraph
+bundle: cuba_pt_captioned_image
+label: Caption
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
