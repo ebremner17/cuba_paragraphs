@@ -9,6 +9,7 @@ dependencies:
     - paragraphs.paragraphs_type.cuba_pt_layout
     - paragraphs.paragraphs_type.cuba_pt_remote_video
     - paragraphs.paragraphs_type.cuba_pt_section
+    - paragraphs.paragraphs_type.cuba_pt_speakers
   module:
     - entity_reference_revisions
 id: paragraph.cuba_pt_section.field_cuba_section
@@ -31,6 +32,7 @@ settings:
       cuba_pt_image: cuba_pt_image
       cuba_pt_layout: cuba_pt_layout
       cuba_pt_remote_video: cuba_pt_remote_video
+      cuba_pt_speakers: cuba_pt_speakers
     target_bundles_drag_drop:
       cuba_pt_captioned_image:
         enabled: true
@@ -50,4 +52,7 @@ settings:
       cuba_pt_section:
         weight: 12
         enabled: false
+      cuba_pt_speakers:
+        enabled: true
+        weight: 14
 field_type: entity_reference_revisions
