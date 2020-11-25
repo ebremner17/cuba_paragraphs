@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cuba_pt_speakers.field_cuba_para_sp_conference
+    - paragraphs.paragraphs_type.cuba_pt_speakers
+id: paragraph.cuba_pt_speakers.default
+targetEntityType: paragraph
+bundle: cuba_pt_speakers
+mode: default
+content:
+  field_cuba_para_sp_conference:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: entity_reference_entity_id
+    region: content
+hidden: {  }

@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cuba_para_sp_conference
+    - paragraphs.paragraphs_type.cuba_pt_speakers
+    - taxonomy.vocabulary.cuba_voc_conference_name
+id: paragraph.cuba_pt_speakers.field_cuba_para_sp_conference
+field_name: field_cuba_para_sp_conference
+entity_type: paragraph
+bundle: cuba_pt_speakers
+label: Conference
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      cuba_voc_conference_name: cuba_voc_conference_name
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

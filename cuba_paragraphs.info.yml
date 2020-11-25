@@ -12,4 +12,5 @@ dependencies:
   - media
   - media_library
   - paragraphs
+  - taxonomy
   - text
